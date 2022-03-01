@@ -6,8 +6,10 @@ namespace Cronometro
     {
         public static void Main(string[] args)
         {
+            //Instancia a Classe Funcoes
             Funcoes funcoes = new Funcoes();
 
+            //Chama o Menu da classe Funcoes
             funcoes.Menu();
         }
     }
